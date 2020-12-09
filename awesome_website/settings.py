@@ -119,3 +119,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Adding to redirect Login
+LOGIN_REDIRECT_URL = "dashboard"
+
+# Adding to redirect Logout
+LOGOUT_REDIRECT_URL = "dashboard"
